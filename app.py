@@ -2,9 +2,6 @@ import streamlit as st
 from fastai.vision.all import *
 import plotly.express as px
 
-import pathlib 
-temp = pathlib.PosixPath
-
 #title
 st.title("Xayvonlarni Klassifikatsiya Qiluvchi Model")
 
