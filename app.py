@@ -3,7 +3,7 @@ from fastai.vision.all import *
 import plotly.express as px
 
 #title
-st.title("Xayvonlarni Klassifikatsiya Qiluvchi Model")
+st.title("Animal Classification Model (Bear, Fish, Bird)")
 
 #upload image
 file = st.file_uploader("Upload an image: ", type = ['gif', 'jpeg', 'jpg', 'png', 'svg'])
