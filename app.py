@@ -4,7 +4,6 @@ import plotly.express as px
 
 import pathlib 
 temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
 
 #title
 st.title("Xayvonlarni Klassifikatsiya Qiluvchi Model")
